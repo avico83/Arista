@@ -7,7 +7,7 @@ While configuring the schedule command you can run scripts, and send variables t
 
     schedule tracking_[route.name] now interval 2 timeout 1 max-log-files 30 logging verbose command bash sudo ip netns     exec ns-MGMT python /mnt/flash/static_route_tracking.py [route.destination] [route.next_hop] [route.name]
 
-##### Monitor Connectivity script run as follows:
+##### Monitor Arista CLI Command:
 This pulls the the packect loss/latency via API
 
     monitor connectivity
