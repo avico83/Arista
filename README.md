@@ -1,7 +1,7 @@
 # Arista Monitoring Scripts:
 
-The following scripts runs with along with the schedule command.
-With the schedule command you can run scripts, and send variables to the script.
+The following scripts runs along with the schedule command.
+While configuring the schedule command you can run scripts, and send variables to the script.
 
 ### Example of how to run the script from Arista cli:
 
